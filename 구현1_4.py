@@ -12,7 +12,7 @@ dx = [-1, 0, 1, 0]
 dy = [0, 1, 0, -1]
 
 def turn_left():
-    global direction 
+    global direction
     direction -= 1
     if direction == -1:
         direction = 3
